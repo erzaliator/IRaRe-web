@@ -24,8 +24,9 @@ export default function Home() {
             <Link href="/" className="underline underline-offset-4 hover:opacity-75 transition-opacity">
               Rankings
             </Link>
-            <Link href="/analysis" className="hover:opacity-75 transition-opacity">
-              Analysis Hub
+            {/* Updated Navbar Link */}
+            <Link href="/insights" className="hover:opacity-75 transition-opacity">
+              Insights
             </Link>
           </div>
         </div>
@@ -51,7 +52,10 @@ export default function Home() {
           </p>
         </div>
         
-        <DataTable columns={columns} data={data} />
+        {/* Table Wrapper for mobile responsiveness */}
+        <div className="w-full overflow-x-auto">
+          <DataTable columns={columns} data={data} />
+        </div>
 
         {/* Footnote: Exclusively using Times New Roman, spanning full width */}
         <footer className="mt-16 border-t pt-8 font-['Times_New_Roman',_Times,_serif] text-slate-700 space-y-5 w-full">
