@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "institution": "IIT Madras",
+    "nirf": 1,
+    "cs": 5,
+    "delta": -4,
+    "score": 88.2
+  },
+  {
+    "id": "2",
+    "institution": "IIT Bombay",
+    "nirf": 3,
+    "cs": 2,
+    "delta": 1,
+    "score": 87.5
+  },
+  {
+    "id": "3",
+    "institution": "IISc Bangalore",
+    "nirf": 2,
+    "cs": 1,
+    "delta": 1,
+    "score": 89.0
+  },
+  {
+    "id": "4",
+    "institution": "IIT Delhi",
+    "nirf": 4,
+    "cs": 4,
+    "delta": 0,
+    "score": 86.8
+  },
+  {
+    "id": "5",
+    "institution": "IIT Kanpur",
+    "nirf": 6,
+    "cs": 8,
+    "delta": -2,
+    "score": 85.1
+  },
+  {
+    "id": "6",
+    "institution": "IIIT Hyderabad",
+    "nirf": 50,
+    "cs": 3,
+    "delta": 47,
+    "score": 82.4
+  }
+]
