@@ -24,11 +24,29 @@ export const columns: ColumnDef<Ranking>[] = [
       </Button>
     ) 
   },
-  { accessorKey: "nirf_eng", header: "NIRF (Eng)" },
-  { accessorKey: "nirf_res", header: "NIRF (Res)" },
+  { 
+    accessorKey: "nirf_eng", 
+    header: ({ column }) => (
+      <Button variant="ghost" className="p-0" onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}>
+        NIRF (Eng) <ArrowUpDown className="ml-2 h-4 w-4" />
+      </Button>
+    ) 
+  },
+  { 
+    accessorKey: "nirf_res", 
+    header: ({ column }) => (
+      <Button variant="ghost" className="p-0" onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}>
+        NIRF (Research) <ArrowUpDown className="ml-2 h-4 w-4" />
+      </Button>
+    ) 
+  },
   {
     accessorKey: "delta",
-    header: "Delta (CS vs Res)",
+    header: ({ column }) => (
+      <Button variant="ghost" className="p-0" onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}>
+        Delta <ArrowUpDown className="ml-2 h-4 w-4" />
+      </Button>
+    ),
     cell: ({ row }) => {
       const delta = row.getValue("delta") as number;
       return (
