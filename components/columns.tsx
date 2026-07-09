@@ -11,7 +11,6 @@ export type Ranking = {
   nirf: number;
   cs: number;
   delta: number;
-  score: number;
 };
 
 export const columns: ColumnDef<Ranking>[] = [
@@ -47,13 +46,5 @@ export const columns: ColumnDef<Ranking>[] = [
         </Badge>
       );
     },
-  },
-  { 
-    accessorKey: "score", 
-    header: ({ column }) => (
-      <Button variant="ghost" className="p-0" onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}>
-        Score <ArrowUpDown className="ml-2 h-4 w-4" />
-      </Button>
-    ) 
   },
 ];
