@@ -1,18 +1,29 @@
 "use client";
 
-import { flexRender, getCoreRowModel, useReactTable, getSortedRowModel } from "@tanstack/react-table";
+import * as React from "react";
+import { 
+  flexRender, 
+  getCoreRowModel, 
+  useReactTable, 
+  getSortedRowModel, 
+  SortingState 
+} from "@tanstack/react-table";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 
 export function DataTable({ columns, data }: { columns: any[], data: any[] }) {
+  const [sorting, setSorting] = React.useState<SortingState>([]);
+
   const table = useReactTable({
     data,
     columns,
     getCoreRowModel: getCoreRowModel(),
+    onSortingChange: setSorting,
     getSortedRowModel: getSortedRowModel(),
+    state: { sorting },
   });
 
   return (
-    <div className="rounded-md border">
+    <div className="rounded-md border bg-card">
       <Table>
         <TableHeader>
           {table.getHeaderGroups().map(headerGroup => (
