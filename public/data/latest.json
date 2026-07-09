@@ -2,134 +2,33 @@
   {
     "id": "1",
     "institution": "Indian Institute of Technology Madras",
-    "nirf": 1,
+    "nirf_eng": 1,
+    "nirf_res": 2,
     "cs": 10,
-    "delta": -9
+    "delta": -8
   },
   {
     "id": "2",
     "institution": "Indian Institute of Technology Delhi",
-    "nirf": 2,
+    "nirf_eng": 2,
+    "nirf_res": 3,
     "cs": 3,
-    "delta": -1
+    "delta": 0
   },
   {
     "id": "3",
     "institution": "Indian Institute of Technology Bombay",
-    "nirf": 3,
+    "nirf_eng": 3,
+    "nirf_res": 4,
     "cs": 2,
-    "delta": 1
-  },
-  {
-    "id": "4",
-    "institution": "Indian Institute of Technology Kanpur",
-    "nirf": 4,
-    "cs": 5,
-    "delta": -1
-  },
-  {
-    "id": "5",
-    "institution": "Indian Institute of Technology Kharagpur",
-    "nirf": 5,
-    "cs": 4,
-    "delta": 1
-  },
-  {
-    "id": "6",
-    "institution": "Indian Institute of Technology Hyderabad",
-    "nirf": 7,
-    "cs": 8,
-    "delta": -1
-  },
-  {
-    "id": "7",
-    "institution": "Indian Institute of Technology Guwahati",
-    "nirf": 8,
-    "cs": 25,
-    "delta": -17
-  },
-  {
-    "id": "8",
-    "institution": "Birla Institute of Technology & Science -Pilani",
-    "nirf": 11,
-    "cs": 14,
-    "delta": -3
-  },
-  {
-    "id": "9",
-    "institution": "Birla Institute of Technology & Science -Pilani",
-    "nirf": 11,
-    "cs": 19,
-    "delta": -8
-  },
-  {
-    "id": "10",
-    "institution": "Indian Institute of Technology Indore",
-    "nirf": 12,
-    "cs": 26,
-    "delta": -14
-  },
-  {
-    "id": "11",
-    "institution": "Indian Institute of Technology Patna",
-    "nirf": 19,
-    "cs": 11,
-    "delta": 8
-  },
-  {
-    "id": "12",
-    "institution": "Indian Institute of Technology Gandhinagar",
-    "nirf": 25,
-    "cs": 16,
-    "delta": 9
-  },
-  {
-    "id": "13",
-    "institution": "Indian Institute of Technology Jodhpur",
-    "nirf": 27,
-    "cs": 9,
-    "delta": 18
-  },
-  {
-    "id": "14",
-    "institution": "Indian Institute of Technology Ropar",
-    "nirf": 32,
-    "cs": 28,
-    "delta": 4
+    "delta": 2
   },
   {
     "id": "15",
-    "institution": "Kalinga Institute of Industrial Technology",
-    "nirf": 36,
-    "cs": 31,
-    "delta": 5
-  },
-  {
-    "id": "16",
     "institution": "International Institute of Information Technology Hyderabad",
-    "nirf": 38,
+    "nirf_eng": 38,
+    "nirf_res": 35,
     "cs": 7,
-    "delta": 31
-  },
-  {
-    "id": "17",
-    "institution": "Manipal Institute of Technology",
-    "nirf": 59,
-    "cs": 32,
-    "delta": 27
-  },
-  {
-    "id": "18",
-    "institution": "Indian Institute of Technology Palakkad",
-    "nirf": 64,
-    "cs": 27,
-    "delta": 37
-  },
-  {
-    "id": "19",
-    "institution": "Indian Institute of Technology Bhilai",
-    "nirf": 72,
-    "cs": 23,
-    "delta": 49
+    "delta": 28
   }
 ]
